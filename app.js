@@ -1,4 +1,4 @@
-let apiKey = "4a758dd1aed04dc3950175920231609";
+let apiKey = "__API_KEY__";
 console.log(apiKey);
 
 function loadWeatherData(searchVal) {
