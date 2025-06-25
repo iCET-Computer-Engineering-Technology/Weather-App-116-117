@@ -1,4 +1,5 @@
 let apiKey = "__API_KEY__";
+console.log(apiKey);
 
 function loadWeatherData(searchVal) {
     fetch(`https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${searchVal}`)
